@@ -37,6 +37,7 @@ jobs:
           name: Install Packages
           command: | 
             pip install pybind11
+            pip install numpy
             python setup.py install
       - run:
           name: Run Tests
