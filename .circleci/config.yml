@@ -36,7 +36,7 @@ jobs:
       - run:
           name: Install Packages
           command: | 
-            pip install matplotlib scipy
+            pip install matplotlib scipy nose
             pip install pybind11
             pip install numpy
             python setup.py install
